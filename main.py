@@ -12,7 +12,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
-MODEL = tf.keras.models.load_model("../models/1/1.keras")
+MODEL = tf.keras.models.load_model("./models/1/1.keras")
 CLASS_NAMES = ['Early Blight','Late Blight','Healthy']
 
 origins = [
